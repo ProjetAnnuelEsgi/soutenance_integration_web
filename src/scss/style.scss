@@ -1,0 +1,42 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+// etc
+
+header {
+  background: lightpink;
+}
+
+main {
+  background: coral;
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+}
+
+footer {
+  background: wheat;
+  text-align: center;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.sidebar {
+  background: rgb(161, 119, 125);
+  font-size: 2rem;
+  text-align: center;
+}
