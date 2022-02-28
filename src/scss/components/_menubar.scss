@@ -1,0 +1,21 @@
+.menubar-wrapper {
+    border: $main-border;
+    border-radius: $main-radius;
+    width: $width-menubar;
+    .menubar {
+        .list-menu {
+            list-style-type: none;
+            display: flex;
+            li {
+                margin: $margin-menubar;
+            }
+            li:hover {
+                font-weight: $menubar-font-weight;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
