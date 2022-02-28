@@ -1,0 +1,9 @@
+.user-icon-wrapper{
+    height: $user-icon-height;
+    width: $user-icon-inner-width;
+    background-color: $main-color;
+    border-radius: $user-icon-radius;
+    .user-icon{
+        overflow: hidden;
+    }
+}
