@@ -18,8 +18,6 @@ main {
   height: 100vh;
   width: 80%;
   margin: 0 auto;
-  border: solid 2px #000;
-
   grid-template-columns: minmax(150px, 25%) 1fr;
 }
 
