@@ -1,17 +1,15 @@
 .table-wrapper{
   border: 1px solid black;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
   
-
+  
   .table {
     border-collapse: collapse;
      
     .header-table{
       background-color: rgba(221, 219, 219, 0.5);
-      tr td {
-        display: grid;
-          flex-direction: row;
-      }
     }
   }
 }
