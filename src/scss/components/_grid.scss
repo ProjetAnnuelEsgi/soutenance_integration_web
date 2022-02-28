@@ -1,0 +1,25 @@
+.table-wrapper {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  width: 950px;
+
+  .table {
+    border-collapse: collapse;
+    tr td {
+      padding: 10px 10px 10px 10px;
+      margin: 40px 40px 40px 40px;
+    }
+    .header-table {
+      background-color: rgba(221, 219, 219, 0.5);
+      font-size: 30px;
+      border-bottom: 1px solid black;
+    }
+
+    .body-table {
+      font-size: 26px;
+    }
+  }
+}

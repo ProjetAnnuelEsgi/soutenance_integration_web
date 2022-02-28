@@ -1,7 +1,10 @@
-@import 'style.scss';
 @import 'components/widget';
-@import 'gridConfig';
-@import 'style';
+@import 'components/grid';
 @import 'components/sideNav';
 @import 'components/searchInput';
+
+@import 'style.scss';
+@import 'gridConfig';
+@import 'style';
 @import 'contentSection';
+@import 'fonts';

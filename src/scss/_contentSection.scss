@@ -1,13 +1,13 @@
 #content-section {
   display: grid;
   grid-template-rows: 0.25fr 2fr;
+  background-color: #fff;
   padding: 10px;
 }
 
 header {
   display: flex;
   align-items: center;
-  background: #fff;
 }
 
 .header-title {
@@ -23,8 +23,6 @@ header {
 }
 .content-wrapper {
   width: 100%;
-  background: #fff;
-  border: solid 1px #000; // Pour repere
 }
 
 .content {
