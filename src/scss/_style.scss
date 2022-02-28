@@ -4,25 +4,34 @@ html {
   height: 100%;
 }
 
-#main {
-  height: 100%;
-}
+// #main {
+//   height: 100%;
+// }
 
 body {
   display: grid;
-  height: 100vh;
+  // width: 1024px;
+  // width: 974px;
+
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(207, 207, 207);
   grid-template-rows: auto 1fr auto;
 }
 
 // etc
 
-header {
-  background: lightpink;
-}
+// header {
+//   background: lightpink;
+// }
 
 main {
-  background: coral;
   display: grid;
+  background: coral;
+  // height: 100%;
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
   grid-template-columns: minmax(150px, 25%) 1fr;
 }
 
