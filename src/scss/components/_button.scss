@@ -1,7 +1,11 @@
 .button-wrapper{
     .button {
-        background-color: $bg-color;
+        background-color: $main-color;
         border: 1px solid black;
         border-radius: 10px;
+        width: 180px;
+        height: 55px;
+        font-size: 18px;
+        font-weight: 700;
     }
 }
