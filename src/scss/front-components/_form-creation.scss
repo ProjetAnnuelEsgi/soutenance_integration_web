@@ -1,0 +1,24 @@
+.form-creation-wrapper {
+    .front-title {
+        color: $color-front-title;
+        font-weight: $font-weight-title-form;
+        font-style: rationale;
+    }
+    .form-creation-equipe{
+        .input-form-creation-equipe{
+            list-style-type: $list-type;
+            
+            li {
+                margin: $list-type;
+                font-size: $list-font-size;
+
+                input {
+                    height: $form-input-height;
+                }
+            }
+        }
+    }
+}
+
+
+
