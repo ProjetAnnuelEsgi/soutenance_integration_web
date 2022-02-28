@@ -1,0 +1,24 @@
+.widget {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 20px 0 0 100px;
+}
+.widget .widget-title{
+    width: 500px;
+    border: solid 1px black;
+    border-radius: 10px 10px 0 0;
+    text-align: left;
+}
+.widget .widget-title h1{
+    font-size: 34px;
+    margin-left: 20px;
+}
+.widget .widget-body{
+    width: 500px;
+    border: solid 1px black;
+    border-radius: 0 0 10px 10px;
+}
+.widget .widget-body p{
+    margin-left: 25px;
+}
