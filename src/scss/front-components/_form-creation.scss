@@ -17,7 +17,13 @@
                 }
             }
         }
+        .button_submit{
+            width: $form-submit-button-width;
+            color: $form-submit-font-color;
+            background-color: $form-submit-button-bg;
+        }
     }
+    
 }
 
 
