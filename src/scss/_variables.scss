@@ -34,16 +34,29 @@ $user-icon-radius: 50%;
 
 //FRONT-OFFICE
 
-//form
+//form front-office
 $font-weight-title-form: 400;
 $color-front-title: #0386FF;
 
 $list-type: none;
 $list-margin: 20px;
+$title-form-font-size: 40px;
+$title-form-left: 190px;
 $list-font-size: 38px;
+$form-position: absolute;
+$form-left: 50%;
+$form-transform: translate(-50%, -50%);
 $form-input-height: 40px;
+$form-input-radius: 10px;
+$form-input-margin: 0 0 0 120px;
 
-
+$form-submit-button-height: 70px;
+$form-submit-button-width: 240px;
+$form-submit-button-bg: rgba(3, 134, 255, 0.66);
+$form-submit-font-size: 28px;
+$form-submit-font-color: white;
+$form-submit-margin: 60px;
+$form-submit-radius: 10px;
 
 $bg-color: #37CFC6;
 $button-font-weight: 700;
