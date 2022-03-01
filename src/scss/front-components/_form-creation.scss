@@ -5,23 +5,21 @@
         font-family: $font2;
         font-size: $title-form-font-size;
         left: $title-form-left;
+        margin: $margin-form-title;
     }
     .form-creation-equipe{
         position: $form-position;
         left: $form-left;
         top: $form-left;
         transform: $form-transform;
+        color: $color-font-form-creation-equipe;
+        font-style: $font3;
+        font-size: $list-font-size;
+        text-align: $label-align-creation-equipe;
         .input-form-creation-equipe{
-            display: flex;
-            justify-content: space-between;
-            font-size: $list-font-size;
                 input {
-                    // width: 200px;
-                    // clear: both;
-                    // margin: $form-input-margin;
                     border-radius: $form-input-radius;
                     height: $form-input-height;
-                    left: 900px;
                 }
             
         }
@@ -33,11 +31,9 @@
             height: $form-submit-button-height;
             color: $form-submit-font-color;
             background-color: $form-submit-button-bg;
-            position: $form-position;
-            left: $form-left;
-            transform: $form-transform;
             margin: $form-submit-margin;
             border-radius: $form-submit-radius;
+            border: 1px solid black;
         }
     }
     

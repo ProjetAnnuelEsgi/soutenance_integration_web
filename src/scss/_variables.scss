@@ -35,16 +35,20 @@ $user-icon-radius: 50%;
 //FRONT-OFFICE
 
 //form front-office
-$font-weight-title-form: 400;
+$font-weight-title-form: 500;
 $color-front-title: #0386FF;
+$margin-form-title: 20px 0 0 35px;
 
 $list-type: none;
 $list-margin: 20px;
 $title-form-font-size: 40px;
+$color-font-form-creation-equipe: #021D7D;
+$label-align-creation-equipe: center;
 $title-form-left: 190px;
 $list-font-size: 38px;
 $form-position: absolute;
 $form-left: 50%;
+$margin-form-creation-equipe: 50px 0 0 0;
 $form-transform: translate(-50%, -50%);
 $form-input-height: 40px;
 $form-input-radius: 10px;
