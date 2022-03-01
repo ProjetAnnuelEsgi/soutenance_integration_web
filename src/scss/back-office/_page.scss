@@ -1,6 +1,13 @@
 .menubar-wrapper{
     .menubar{
-        display: flex;
-        flex-direction: column;
+        .list-menu{
+            display: flex;
+            flex-direction: column;
+            .add-list-menu{
+                float: right;
+                background-color: $main-color;
+                border-radius: $main-border;
+            }
+        }   
     }
 }
