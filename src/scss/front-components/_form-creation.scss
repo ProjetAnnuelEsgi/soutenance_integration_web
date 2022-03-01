@@ -1,0 +1,44 @@
+.form-creation-wrapper {
+    .front-title {
+        color: $color-front-title;
+        font-weight: $font-weight-title-form;
+        font-family: $font2;
+        font-size: $title-form-font-size;
+        left: $title-form-left;
+        margin: $margin-form-title;
+    }
+    .form-creation-equipe{
+        margin: $margin-form-creation-equipe;
+        position: $form-position;
+        left: $form-left;
+        top: $form-left;
+        transform: $form-transform;
+        color: $color-font-form-creation-equipe;
+        font-style: $font3;
+        font-size: $list-font-size;
+        text-align: $label-align-creation-equipe;
+        .input-form-creation-equipe{
+                input {
+                    border-radius: $form-input-radius;
+                    height: $form-input-height;
+                }
+            
+        }
+        .button_submit{
+            text-align: center;
+            margin: $form-submit-margin;
+            font-size: $form-submit-font-size;
+            width: $form-submit-button-width;
+            height: $form-submit-button-height;
+            color: $form-submit-font-color;
+            background-color: $form-submit-button-bg;
+            margin: $form-submit-margin;
+            border-radius: $form-submit-radius;
+            border: 1px solid black;
+        }
+    }
+    
+}
+
+
+
