@@ -1,0 +1,19 @@
+.notification-bar-container{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    border: $main-border;
+    border-radius: $main-radius;
+    height: $height-notificationbar;
+    width: $width-notificationbar;
+    font-size: $font-size-notificationbar;
+    .user-icon {
+        margin: $margin-notificationbar;
+    }
+    .text {
+        margin: $margin-notificationbar;
+    }
+    .icon {
+        margin: $margin-icon-notificationbar;
+    }
+}
